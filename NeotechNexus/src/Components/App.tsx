@@ -3,13 +3,12 @@ import '../output.css'
 import { TagsView } from './TagsView'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <div className="bg-slate-900 min-h-screen h-content">
-      <TagsView />
-    </div>
-  )
+  return (<>
+    <main className="bg-white h-screen flex">
+        <TagsView />
+    </main>
+  </>)
 }
 
 export default App
